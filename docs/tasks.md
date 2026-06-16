@@ -4,6 +4,25 @@ Ordered, atomic, independently verifiable build tasks implementing [spec.md](spe
 context in [research.md](research.md)). Each task lists Goal, Files, Dependencies, and an
 Acceptance check. Tasks are sequenced so each can be completed and verified before the next.
 
+## Completion status
+
+- [x] T1 - Project scaffold and dependencies
+- [x] T2 - Data models
+- [x] T3 - Brand and official-property maps
+- [x] T4 - Ingestion and normalization (945 unique domains verified)
+- [x] T5 - DNS checks
+- [x] T6 - HTTP / redirect / TLS checks
+- [x] T7 - Content analysis
+- [x] T8 - Email dependency assessment
+- [x] T9 - Redirect target classification
+- [x] T10 - Classification and recommendation engine
+- [x] T11 - Orchestrator (concurrency, cache, resume)
+- [x] T12 - Output writer (CSV + xlsx)
+- [x] T13 - Summary and pattern analysis
+- [x] T14 - CLI entry point
+- [x] T15 - Validation against EU seed data (67.3% liveness agreement)
+- [x] T16 - Full run and deliverable (945/945 classified, source byte-identical)
+
 Target layout:
 ```text
 url-classification/
